@@ -1,3 +1,11 @@
 /FrontEnd/node_modules
 /FrontEnd/node_modules
 /FrontEnd/node_modules/.cache
+/FrontEnd/node_modules/.cache/default-development
+/FrontEnd/node_modules
+/FrontEnd/node_modules/.cache
+FrontEnd/node_modules/.cache/.eslintcache
+/FrontEnd/node_modules/.cache
+/FrontEnd/node_modules/.cache
+*.old
+/FrontEnd/node_modules/.cache

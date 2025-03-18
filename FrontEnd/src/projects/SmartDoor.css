@@ -1,22 +1,81 @@
-.control-container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    color: white;
-  }
-  
-  .open {
-    background-color: #28a745;
-  }
-  
-  .close {
-    background-color: #dc3545;
-  }
-  
+
+.dashboard {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.config-section {
+  grid-column: span 2;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.config-section input {
+  display: block;
+  width: 60%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.config-section button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.section h4 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.section button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section .open {
+  background-color: #28a745;
+  color: white;
+}
+
+.section .close {
+  background-color: #dc3545;
+  color: white;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #f5c6cb;
+}
+
+.door-control {
+  text-align: center;
+}
+
+.door-image {
+  font-size: 80px;
+  margin: 20px 0;
+}
