@@ -1,0 +1,22 @@
+.control-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }
+  
+  .open {
+    background-color: #28a745;
+  }
+  
+  .close {
+    background-color: #dc3545;
+  }
+  

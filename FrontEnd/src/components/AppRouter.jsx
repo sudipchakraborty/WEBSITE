@@ -14,6 +14,7 @@ import Register from '../pages/Register';
 import ToDo from '../pages/ToDo'
 import CardLogIn from './CardLogIn';
 // import Register from '../pages/register';
+import SmartDoor from '../projects/SmartDoor'
 //////////////////////////////////////
 const AppRouter = () => {
   return (
@@ -35,6 +36,7 @@ const AppRouter = () => {
             <Route path='register' element={<Register/>}> </Route>
             <Route path='todo' element={<ToDo/>}> </Route>
             <Route path='CardLogIn' element={<CardLogIn/>}> </Route>
+            <Route path='SmartDoor' element={<SmartDoor/>}> </Route>
       </Routes>   
       </BrowserRouter>
       <div>

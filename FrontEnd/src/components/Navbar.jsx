@@ -13,6 +13,7 @@ const Navbar = () => {
       <NavLink to='Detail'>Detail</NavLink>
       <NavLink to='register'>register</NavLink>
       <NavLink to='todo'>ToDo</NavLink>
+      <NavLink to='SmartDoor'>Smart Door</NavLink>
     </div>
   )
 }
