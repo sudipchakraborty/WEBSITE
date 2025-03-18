@@ -1,0 +1,61 @@
+/* Card Styling */
+.carousel-card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .carousel-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  /* Carousel Container */
+  .carousel-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  /* Image Styling */
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Dots styling (optional) */
+  .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-dots li button:before {
+    color: #007bff; /* Change the dot color */
+    font-size: 12px;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .carousel-card {
+      width: 95%;
+    }
+  }
+  

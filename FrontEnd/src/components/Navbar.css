@@ -1,0 +1,11 @@
+.NavWrapper{
+    height: 30px;
+    color: rgb(206, 21, 21);
+    background-color: rgb(14, 156, 121);
+   
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
