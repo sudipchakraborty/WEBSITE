@@ -1,7 +1,9 @@
 import axios from "axios";
 
 // Set the ESP32 IP Address (Change this based on your setup)
-const ESP32_BASE_URL = "http://115.187.37.99:8080";  // Ensure this matches your ESP32's static IP
+// const ESP32_BASE_URL = "http://115.187.37.99:8080";  // Ensure this matches your ESP32's static IP
+
+const ESP32_BASE_URL = "http://115.187.37.99:5000/api/esp32";  // Ensure this matches your ESP32's static IP
 
 // Function to open the door
 export const openDoor = async () => {
